@@ -1,0 +1,53 @@
+{
+  "title": "soap-sbar-llm-benchmark: Fact-Transcription Fidelity in LLM SOAP-to-SBAR Translation (Dataset and Pipeline), v1.1.0",
+  "version": "1.1.0",
+  "publication_date": "2026-05-10",
+  "upload_type": "dataset",
+  "description": "<p>Reproducibility package for the three-stage automated evaluation pipeline applied to fact-transcription fidelity benchmarking of three commercial large language models (GPT-4o, Claude Opus 4.5, Gemini 2.5 Flash-Lite) on SOAP-to-SBAR translation in nursing handoff documentation.</p><p><strong>Contents</strong></p><ul><li>9 source SOAP scenarios, authored <em>de novo</em> across acute, chronic, and palliative-care categories (3 per category).</li><li>180 pre-specified fact tags with annotations (content domain, clinical priority, target SBAR section, preservation difficulty stratum).</li><li>1,620 generated SBAR records (3 vendors &times; 9 scenarios &times; 2 sampling temperatures &times; 30 trials).</li><li>Three-stage automated evaluation pipeline source code (deterministic Stage 1 + paired AI judges Stage 2 + arbiter Stage 3).</li><li>Statistical analysis scripts (Friedman, Wilcoxon signed-rank, Cohen's &kappa;, ICC(2,1), Kruskal-Wallis).</li><li>Per-call <code>resolved_model</code> audit logs.</li><li>Pinned dependency versions in <code>requirements.txt</code>.</li></ul><p><strong>Changes in v1.1.0</strong></p><p>This release synchronises the repository with the post-correction manuscript submitted to <em>Cureus</em>. No changes to raw data, generated SBAR records, or analysis-pipeline source code; corrections are limited to documentation, manuscript-aligned metadata, and the rendering of Figure 4. See <code>CHANGELOG.md</code> in the repository for full details.</p><p><strong>Linked manuscript</strong></p><p>Tajima H. <em>Fact-Transcription Fidelity in Large Language Model SOAP-to-SBAR Translation: A Three-Stage Automated Evaluation Across Three Vendors.</em> Cureus, 2026; in press.</p><p><strong>Licence</strong></p><p>MIT Licence. See <code>LICENSE</code> in the repository.</p>",
+  "creators": [
+    {
+      "name": "Tajima, Hiroyuki",
+      "affiliation": "Faculty of Nursing, Shumei University, Yachiyo, Japan",
+      "orcid": "0000-0003-3817-4455"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "large language models",
+    "clinical documentation",
+    "fact-transcription fidelity",
+    "hallucination",
+    "llm-as-a-judge",
+    "medical informatics",
+    "natural language processing",
+    "nursing handoff",
+    "reproducibility of results",
+    "sbar",
+    "soap"
+  ],
+  "communities": [
+    {"identifier": "biohackathon"}
+  ],
+  "subjects": [
+    {
+      "term": "Health informatics",
+      "identifier": "https://id.loc.gov/authorities/subjects/sh85059467",
+      "scheme": "url"
+    }
+  ],
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/aiprof202604-tech/soap-sbar-llm-benchmark/tree/v1.1.0",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.5281/zenodo.20105037",
+      "relation": "isVersionOf",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "v1.1.0 documents corrections aligning the dataset README and Figure 4 with the post-correction manuscript submitted to Cureus on 2026-05-10. Total evaluable SBAR-by-tag cells: 32,400 (n = 5,400 per model x temperature cell). All numerical results unchanged from v1.0.0. See CHANGELOG.md and RELEASE_NOTES_v1.1.0.md in the repository for the complete change log."
+}
