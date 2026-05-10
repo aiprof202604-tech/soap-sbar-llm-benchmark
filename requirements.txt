@@ -1,0 +1,20 @@
+# Python dependencies for the SOAP-to-SBAR LLM benchmark
+# Tested with Python 3.12.x
+
+# Scientific computing
+numpy>=1.26,<2.0
+pandas>=2.2,<3.0
+scipy>=1.13,<2.0
+scikit-learn>=1.4,<2.0
+
+# Visualisation (for figure generation, optional for analysis reproduction)
+matplotlib>=3.8,<4.0
+seaborn>=0.13,<0.14
+
+# LLM API clients (only required if rerunning generation/judging arms)
+openai>=1.40,<2.0
+anthropic>=0.34,<1.0
+requests>=2.31,<3.0
+
+# Data validation (optional)
+pyyaml>=6.0,<7.0

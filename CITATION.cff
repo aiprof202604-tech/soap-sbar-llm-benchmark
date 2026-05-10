@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+title: "SOAP-to-SBAR LLM Benchmark: Data, Code, and Materials"
+message: "If you use this software or dataset, please cite both the manuscript and the archived deposit."
+type: dataset
+authors:
+  - given-names: Hiroyuki
+    family-names: Tajima
+    affiliation: "Faculty of Nursing, Shumei University, Yachiyo, Japan"
+    orcid: "https://orcid.org/0000-0003-3817-4455"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.[ZENODO_RECORD_ID]"
+    description: "Zenodo archive of the repository at version 1.0.0"
+repository-code: "https://github.com/aiprof202604-tech/soap-sbar-llm-benchmark"
+abstract: >-
+  Companion archive to the manuscript "Fact-Transcription Fidelity in Large
+  Language Model SOAP-to-SBAR Translation: A Three-Stage Automated Evaluation
+  Across Three Vendors". Contains the nine source SOAP scenarios, 180 fact
+  tags, 1,620 generated SBAR records, three-stage judging outputs, alternative-
+  arbiter sensitivity analysis, and the analysis scripts that reproduce all
+  numerical results reported in the manuscript.
+keywords:
+  - large language models
+  - clinical documentation
+  - SBAR
+  - nursing handoff
+  - fact-transcription fidelity
+  - hallucination
+  - LLM-as-a-Judge
+  - natural language processing
+  - reproducibility of results
+  - medical informatics
+license: MIT
+version: 1.0.0
+date-released: 2026-05-09
+preferred-citation:
+  type: article
+  authors:
+    - given-names: Hiroyuki
+      family-names: Tajima
+      affiliation: "Faculty of Nursing, Shumei University, Yachiyo, Japan"
+      orcid: "https://orcid.org/0000-0003-3817-4455"
+  title: >-
+    Fact-Transcription Fidelity in Large Language Model SOAP-to-SBAR Translation:
+    A Three-Stage Automated Evaluation Across Three Vendors
+  journal: "Cureus"
+  year: 2026
+  doi: "10.7759/cureus.[CUREUS_DOI_ID]"
