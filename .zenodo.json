@@ -1,9 +1,9 @@
 {
-  "title": "soap-sbar-llm-benchmark: Fact-Transcription Fidelity in LLM SOAP-to-SBAR Translation (Dataset and Pipeline), v1.1.0",
-  "version": "1.1.0",
-  "publication_date": "2026-05-10",
-  "upload_type": "dataset",
-  "description": "<p>Reproducibility package for the three-stage automated evaluation pipeline applied to fact-transcription fidelity benchmarking of three commercial large language models (GPT-4o, Claude Opus 4.5, Gemini 2.5 Flash-Lite) on SOAP-to-SBAR translation in nursing handoff documentation.</p><p><strong>Contents</strong></p><ul><li>9 source SOAP scenarios, authored <em>de novo</em> across acute, chronic, and palliative-care categories (3 per category).</li><li>180 pre-specified fact tags with annotations (content domain, clinical priority, target SBAR section, preservation difficulty stratum).</li><li>1,620 generated SBAR records (3 vendors &times; 9 scenarios &times; 2 sampling temperatures &times; 30 trials).</li><li>Three-stage automated evaluation pipeline source code (deterministic Stage 1 + paired AI judges Stage 2 + arbiter Stage 3).</li><li>Statistical analysis scripts (Friedman, Wilcoxon signed-rank, Cohen's &kappa;, ICC(2,1), Kruskal-Wallis).</li><li>Per-call <code>resolved_model</code> audit logs.</li><li>Pinned dependency versions in <code>requirements.txt</code>.</li></ul><p><strong>Changes in v1.1.0</strong></p><p>This release synchronises the repository with the post-correction manuscript submitted to <em>Cureus</em>. No changes to raw data, generated SBAR records, or analysis-pipeline source code; corrections are limited to documentation, manuscript-aligned metadata, and the rendering of Figure 4. See <code>CHANGELOG.md</code> in the repository for full details.</p><p><strong>Linked manuscript</strong></p><p>Tajima H. <em>Fact-Transcription Fidelity in Large Language Model SOAP-to-SBAR Translation: A Three-Stage Automated Evaluation Across Three Vendors.</em> Cureus, 2026; in press.</p><p><strong>Licence</strong></p><p>MIT Licence. See <code>LICENSE</code> in the repository.</p>",
+  "title": "soap-sbar-llm-benchmark: Quantifying Safety-Critical Information Loss in LLM-Generated Clinical Handoffs (Data, Code, and Materials), v1.2.0",
+  "version": "1.2.0",
+  "publication_date": "2026-06-15",
+  "upload_type": "software",
+  "description": "<p>Reproducibility package for a priority-stratified, three-stage automated evaluation pipeline that quantifies <strong>safety-critical omission (SCO)</strong> &mdash; the proportion of high-priority clinical facts completely omitted &mdash; when four commercial large language models translate Japanese SOAP nursing records into SBAR handoff summaries.</p><p><strong>Models evaluated</strong></p><ul><li>GPT-4o (<code>gpt-4o-2024-08-06</code>)</li><li>GPT-5.5 (<code>gpt-5.5-2026-04-23</code>)</li><li>Claude Opus 4.5 (<code>claude-opus-4-5-20251101</code>)</li><li>Gemini 2.5 Flash-Lite (<code>gemini-2.5-flash-lite</code>)</li></ul><p><strong>Contents</strong></p><ul><li>9 source SOAP scenarios, authored <em>de novo</em> across acute, chronic, and palliative-care categories.</li><li>180 pre-specified fact tags annotated with content domain, clinical priority (high 88 / medium 66 / low 26), target SBAR section, and preservation difficulty (easy 88 / medium 74 / hard 18).</li><li>2,160 generated SBAR records (4 models &times; 9 scenarios &times; 60 trials; temperatures 0.0 and 1.0).</li><li>Three-stage automated evaluation pipeline: deterministic Stage 1 + paired cross-vendor AI judges (GPT-4o and Gemini) Stage 2 + arbiter (Claude Haiku 4.5) Stage 3, with gap-fixed consensus scores.</li><li>Independent second-rater reliability validation: a registered nurse, independent of and blinded to the author, re-scored a stratified 400-cell subset and independently re-assigned all 180 priority labels.</li><li>Statistical analysis scripts (Friedman, Wilcoxon signed-rank, Cohen's &kappa;).</li><li>Pinned dependency versions in <code>requirements.txt</code>.</li></ul><p><strong>Headline result</strong></p><p>Safety-critical omission of high-priority facts: GPT-4o 37.7% (95% CI 28.4&ndash;45.3), GPT-5.5 19.4% (12.8&ndash;24.6), Claude Opus 4.5 17.0% (11.7&ndash;23.7), Gemini 2.5 Flash-Lite 17.0% (9.3&ndash;22.4). The three current-generation models are statistically indistinguishable; the earlier-generation GPT-4o omits significantly more (Friedman &chi;&sup2;(3) = 13.58, p = 0.0035; Kendall's W = 0.503). Inter-rater agreement between the two clinicians: Cohen's &kappa; = 0.933 (95% CI 0.901&ndash;0.961); priority-label agreement &kappa; = 0.973 (95% CI 0.937&ndash;1.000).</p><p><strong>Changes in v1.2.0</strong></p><p>Major revision: the study is reframed around safety-critical omission, a fourth model (GPT-5.5) is added, the corpus is expanded to 2,160 SBAR records, a gap-fixed high-priority-tag analysis and an independent second-rater reliability validation are added, and the documentation/metadata are aligned with the substantially revised manuscript. See <code>CHANGELOG.md</code> and <code>RELEASE_NOTES_v1.2.0.md</code> in the repository.</p><p><strong>Linked manuscript</strong></p><p>Tajima H. <em>Quantifying Safety-Critical Information Loss in Large Language Model-Generated Clinical Handoffs: A Priority-Stratified Automated Evaluation Pipeline.</em> 2026; under review.</p><p><strong>Licence</strong></p><p>MIT Licence. See <code>LICENSE</code> in the repository.</p>",
   "creators": [
     {
       "name": "Tajima, Hiroyuki",
@@ -16,18 +16,19 @@
   "keywords": [
     "large language models",
     "clinical documentation",
-    "fact-transcription fidelity",
+    "patient safety",
+    "clinical handoff",
+    "safety-critical omission",
+    "information loss",
     "hallucination",
     "llm-as-a-judge",
+    "inter-rater reliability",
     "medical informatics",
     "natural language processing",
     "nursing handoff",
     "reproducibility of results",
     "sbar",
     "soap"
-  ],
-  "communities": [
-    {"identifier": "biohackathon"}
   ],
   "subjects": [
     {
@@ -39,15 +40,15 @@
   "language": "eng",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/aiprof202604-tech/soap-sbar-llm-benchmark/tree/v1.1.0",
+      "identifier": "https://github.com/aiprof202604-tech/soap-sbar-llm-benchmark/tree/v1.2.0",
       "relation": "isSupplementTo",
       "resource_type": "software"
     },
     {
-      "identifier": "10.5281/zenodo.20105037",
+      "identifier": "10.5281/zenodo.20105036",
       "relation": "isVersionOf",
       "scheme": "doi"
     }
   ],
-  "notes": "v1.1.0 documents corrections aligning the dataset README and Figure 4 with the post-correction manuscript submitted to Cureus on 2026-05-10. Total evaluable SBAR-by-tag cells: 32,400 (n = 5,400 per model x temperature cell). All numerical results unchanged from v1.0.0. See CHANGELOG.md and RELEASE_NOTES_v1.1.0.md in the repository for the complete change log."
+  "notes": "v1.2.0 reframes the study around safety-critical omission, adds a fourth model (GPT-5.5) for a total of 2,160 SBAR records, adds a gap-fixed high-priority-tag analysis and an independent second-rater reliability validation (Cohen's kappa = 0.933 inter-rater; 0.973 for priority labels), and aligns documentation and metadata with the revised manuscript. See CHANGELOG.md and RELEASE_NOTES_v1.2.0.md in the repository for the complete change log."
 }
