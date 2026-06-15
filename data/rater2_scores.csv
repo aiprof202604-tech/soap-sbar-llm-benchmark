@@ -1,0 +1,401 @@
+cell_id,問,症例,モデル,tag_id,優先度※参考,記載先,事実（日本語）,Fact (EN),採点
+01_C2_01,1,C2,gpt,C2_01,低(省略可),B,体温36.4℃,Body temperature 36.4C,0
+01_C2_02,1,C2,gpt,C2_02,高(必須),B,脈拍72/分(心房細動・絶対不整脈),"Pulse 72/min (AF, irregularly irregular)",0
+01_C2_03,1,C2,gpt,C2_03,中,B,血圧118/68mmHg,BP 118/68 mmHg,0
+01_C2_04,1,C2,gpt,C2_04,低(省略可),B,呼吸数18/分,Respiration 18/min,0
+01_C2_05,1,C2,gpt,C2_05,低(省略可),B,SpO2 96%,SpO2 96% (room air),0
+01_C2_06,1,C2,gpt,C2_06,高(必須),B,体重72→66kg(6kg減),Weight 72->66kg (-6kg),1
+01_C2_07,1,C2,gpt,C2_07,高(必須),A,BNP 1420→285pg/mL,BNP 1420->285 pg/mL,0
+01_C2_08,1,C2,gpt,C2_08,高(必須),B,LVEF 38%,LVEF 38%,0
+01_C2_09,1,C2,gpt,C2_09,高(必須),A,6分間歩行180→320m,6MWT 180->320m,1
+01_C2_10,1,C2,gpt,C2_10,中,A,下腿浮腫消失、ラ音消失,Lower limb edema and rales resolved,0
+01_C2_11,1,C2,gpt,C2_11,高(必須),B,心房細動・CKD G3a・高血圧既往,"AF, CKD G3a, HTN history",0
+01_C2_12,1,C2,gpt,C2_12,高(必須),B,入院第18病日、退院前日,"Hospital day 18, day before discharge",1
+01_C2_13,1,C2,gpt,C2_13,中,B,利尿薬調整・心リハ完遂,"Diuretic adjustment, cardiac rehab completed",1
+01_C2_14,1,C2,gpt,C2_14,高(必須),A,再増悪不安,Anxiety about re-exacerbation,2
+01_C2_15,1,C2,gpt,C2_15,高(必須),A,妻76歳との二人暮らし、介護力制限,"Lives with 76yo wife, limited caregiving",2
+01_C2_16,1,C2,gpt,C2_16,中,A,長男家族の距離(車30分),Eldest son's family 30min drive,1
+01_C2_17,1,C2,gpt,C2_17,中,A,塩分制限継続困難の自覚,Acknowledges difficulty with salt restriction,2
+01_C2_18,1,C2,gpt,C2_18,高(必須),R,訪問看護週2回導入,Visiting nursing 2x/wk planned,2
+01_C2_19,1,C2,gpt,C2_19,中,R,多職種カンファレンス予定,Multidisciplinary conference scheduled,2
+01_C2_20,1,C2,gpt,C2_20,高(必須),R,体重・塩分・活動量・受診基準指導,"Education: weight, salt, activity, ER criteria",1
+02_A3_01,2,A3,gemini,A3_01,低(省略可),B,体温36.8℃,Body temperature 36.8C,0
+02_A3_02,2,A3,gemini,A3_02,中,B,脈拍96/分,Pulse 96/min,0
+02_A3_03,2,A3,gemini,A3_03,低(省略可),B,血圧138/82mmHg,BP 138/82 mmHg,0
+02_A3_04,2,A3,gemini,A3_04,高(必須),S,呼吸数24/分,Respiration 24/min,0
+02_A3_05,2,A3,gemini,A3_05,高(必須),S,SpO2 91%(O2 2L),SpO2 91% (O2 2L),2
+02_A3_06,2,A3,gemini,A3_06,高(必須),B,Room air SpO2 88%,Room air SpO2 88%,2
+02_A3_07,2,A3,gemini,A3_07,高(必須),A,労作時SpO2 86%,SpO2 86% on exertion,2
+02_A3_08,2,A3,gemini,A3_08,高(必須),A,pH 7.34,pH 7.34,0
+02_A3_09,2,A3,gemini,A3_09,高(必須),A,PaCO2 58mmHg(CO2貯留),PaCO2 58 mmHg (retention),1
+02_A3_10,2,A3,gemini,A3_10,高(必須),A,PaO2 56mmHg,PaO2 56 mmHg,0
+02_A3_11,2,A3,gemini,A3_11,中,A,HCO3- 30mEq/L,HCO3- 30 mEq/L,0
+02_A3_12,2,A3,gemini,A3_12,高(必須),S,両肺呼気性喘鳴・右下湿性ラ音,"Bilateral expiratory wheezes, R-lower wet rales",2
+02_A3_13,2,A3,gemini,A3_13,中,S,喀痰黄色粘稠1日30mL,Yellow viscous sputum 30mL/day,0
+02_A3_14,2,A3,gemini,A3_14,高(必須),B,mMRC Grade 3,mMRC Grade 3,0
+02_A3_15,2,A3,gemini,A3_15,中,S,口すぼめ呼吸・肋間筋使用,"Pursed-lip breathing, intercostal use",0
+02_A3_16,2,A3,gemini,A3_16,中,B,喫煙歴40年・10年前禁煙,"40 pack-year history, quit 10y ago",2
+02_A3_17,2,A3,gemini,A3_17,高(必須),B,吸入薬・ステロイド・抗菌薬使用中,"On inhalers, steroids, antibiotics",1
+02_A3_18,2,A3,gemini,A3_18,高(必須),R,酸素2L/分上限(CO2貯留考慮),O2 cap at 2L/min (CO2 retention),1
+02_A3_19,2,A3,gemini,A3_19,高(必須),A,HOT導入への本人消極性,Patient reluctant re: HOT introduction,2
+02_A3_20,2,A3,gemini,A3_20,中,R,家族面談・呼吸ケアチーム連携計画,"Plan: family conference, respiratory care team",2
+03_A3_01,3,A3,gpt,A3_01,低(省略可),B,体温36.8℃,Body temperature 36.8C,0
+03_A3_02,3,A3,gpt,A3_02,中,B,脈拍96/分,Pulse 96/min,0
+03_A3_03,3,A3,gpt,A3_03,低(省略可),B,血圧138/82mmHg,BP 138/82 mmHg,0
+03_A3_04,3,A3,gpt,A3_04,高(必須),S,呼吸数24/分,Respiration 24/min,0
+03_A3_05,3,A3,gpt,A3_05,高(必須),S,SpO2 91%(O2 2L),SpO2 91% (O2 2L),2
+03_A3_06,3,A3,gpt,A3_06,高(必須),B,Room air SpO2 88%,Room air SpO2 88%,2
+03_A3_07,3,A3,gpt,A3_07,高(必須),A,労作時SpO2 86%,SpO2 86% on exertion,1
+03_A3_08,3,A3,gpt,A3_08,高(必須),A,pH 7.34,pH 7.34,0
+03_A3_09,3,A3,gpt,A3_09,高(必須),A,PaCO2 58mmHg(CO2貯留),PaCO2 58 mmHg (retention),1
+03_A3_10,3,A3,gpt,A3_10,高(必須),A,PaO2 56mmHg,PaO2 56 mmHg,0
+03_A3_11,3,A3,gpt,A3_11,中,A,HCO3- 30mEq/L,HCO3- 30 mEq/L,0
+03_A3_12,3,A3,gpt,A3_12,高(必須),S,両肺呼気性喘鳴・右下湿性ラ音,"Bilateral expiratory wheezes, R-lower wet rales",0
+03_A3_13,3,A3,gpt,A3_13,中,S,喀痰黄色粘稠1日30mL,Yellow viscous sputum 30mL/day,1
+03_A3_14,3,A3,gpt,A3_14,高(必須),B,mMRC Grade 3,mMRC Grade 3,2
+03_A3_15,3,A3,gpt,A3_15,中,S,口すぼめ呼吸・肋間筋使用,"Pursed-lip breathing, intercostal use",0
+03_A3_16,3,A3,gpt,A3_16,中,B,喫煙歴40年・10年前禁煙,"40 pack-year history, quit 10y ago",0
+03_A3_17,3,A3,gpt,A3_17,高(必須),B,吸入薬・ステロイド・抗菌薬使用中,"On inhalers, steroids, antibiotics",1
+03_A3_18,3,A3,gpt,A3_18,高(必須),R,酸素2L/分上限(CO2貯留考慮),O2 cap at 2L/min (CO2 retention),2
+03_A3_19,3,A3,gpt,A3_19,高(必須),A,HOT導入への本人消極性,Patient reluctant re: HOT introduction,2
+03_A3_20,3,A3,gpt,A3_20,中,R,家族面談・呼吸ケアチーム連携計画,"Plan: family conference, respiratory care team",2
+04_A1_01,4,A1,gemini,A1_01,中,B,体温37.2℃,Body temperature 37.2C,2
+04_A1_02,4,A1,gemini,A1_02,中,B,脈拍88/分,Pulse 88/min,2
+04_A1_03,4,A1,gemini,A1_03,中,B,血圧132/78mmHg,BP 132/78 mmHg,2
+04_A1_04,4,A1,gemini,A1_04,低(省略可),B,呼吸数18/分,Respiration 18/min,0
+04_A1_05,4,A1,gemini,A1_05,低(省略可),B,SpO2 98%,SpO2 98% (room air),0
+04_A1_06,4,A1,gemini,A1_06,高(必須),S,NRS安静時4/10,NRS at rest 4/10,2
+04_A1_07,4,A1,gemini,A1_07,高(必須),S,NRS体動時7/10,NRS on movement 7/10,2
+04_A1_08,4,A1,gemini,A1_08,中,S,夜間覚醒2回(うち1回は痛み起因),Nocturnal awakening 2x (1x pain-related),2
+04_A1_09,4,A1,gemini,A1_09,中,S,鎮痛薬効果の自覚持続2時間,Perceived analgesic effect lasts 2h,2
+04_A1_10,4,A1,gemini,A1_10,高(必須),B,腹腔鏡下虫垂切除術後第1病日,POD1 after laparoscopic appendectomy,2
+04_A1_11,4,A1,gemini,A1_11,中,A,創部3箇所、ガーゼ汚染なし,"3 wound sites, no gauze soiling",0
+04_A1_12,4,A1,gemini,A1_12,中,A,創部発赤・腫脹なし,No wound redness or swelling,2
+04_A1_13,4,A1,gemini,A1_13,高(必須),B,朝5時ロキソプロフェン60mg内服,Loxoprofen 60mg PO at 5am,2
+04_A1_14,4,A1,gemini,A1_14,中,A,病室内自力歩行可,Independent ambulation within room,2
+04_A1_15,4,A1,gemini,A1_15,中,A,トイレ要付き添い,Requires assistance to toilet,2
+04_A1_16,4,A1,gemini,A1_16,低(省略可),A,朝食半分摂取,Half of breakfast consumed,2
+04_A1_17,4,A1,gemini,A1_17,中,A,腸蠕動音減弱,Reduced bowel sounds,2
+04_A1_18,4,A1,gemini,A1_18,高(必須),R,定時鎮痛見直しを医師に相談予定,Plan to consult MD re: regular analgesia,2
+04_A1_19,4,A1,gemini,A1_19,高(必須),R,NRS 4以上で頓服推奨,Recommend PRN if NRS >=4,2
+04_A1_20,4,A1,gemini,A1_20,中,R,午前午後各1回の歩行訓練継続,Continue ambulation training 2x/day,2
+05_P2_01,5,P2,gemini,P2_01,低(省略可),B,体温36.7℃,Body temperature 36.7C,0
+05_P2_02,5,P2,gemini,P2_02,低(省略可),B,脈拍88/分,Pulse 88/min,0
+05_P2_03,5,P2,gemini,P2_03,低(省略可),B,血圧124/72mmHg,BP 124/72 mmHg,0
+05_P2_04,5,P2,gemini,P2_04,低(省略可),B,呼吸数18/分,Respiration 18/min,0
+05_P2_05,5,P2,gemini,P2_05,中,B,SpO2 94%(O2 1L),SpO2 94% (O2 1L),0
+05_P2_06,5,P2,gemini,P2_06,高(必須),B,オキシコドン徐放40mg/日,Oxycodone SR 40mg/day,2
+05_P2_07,5,P2,gemini,P2_07,高(必須),B,レスキューオキノーム5mg(1日2-3回),"Oxynorm rescue 5mg, 2-3x/day",2
+05_P2_08,5,P2,gemini,P2_08,中,S,NRS安静2、体動5,"NRS at rest 2, on movement 5",1
+05_P2_09,5,P2,gemini,P2_09,高(必須),B,PPS 50%,PPS 50%,2
+05_P2_10,5,P2,gemini,P2_10,高(必須),B,肺腺癌Stage IV、骨転移,"Lung adenoCa Stage IV, bone mets",2
+05_P2_11,5,P2,gemini,P2_11,高(必須),B,診断後14ヶ月、化学療法終了(BSC),"14mo since dx, chemo discontinued (BSC)",1
+05_P2_12,5,P2,gemini,P2_12,中,B,入院第14病日、退院前,"Hospital day 14, pre-discharge",1
+05_P2_13,5,P2,gemini,P2_13,高(必須),A,夫75歳(主介護者・軽度高血圧),"Husband 75yo (primary caregiver, mild HTN)",2
+05_P2_14,5,P2,gemini,P2_14,中,A,娘45歳(車40分・週末訪問),"Daughter 45yo (40min drive, weekend visits)",1
+05_P2_15,5,P2,gemini,P2_15,高(必須),A,Zarit 24点(中程度負担),Zarit score 24 (moderate burden),2
+05_P2_16,5,P2,gemini,P2_16,高(必須),B,訪問診療・訪問看護週3・要介護2,"Home MD, visiting nurse 3x/wk, LTC level 2",1
+05_P2_17,5,P2,gemini,P2_17,高(必須),A,夫の夜間対応への不安,Husband's anxiety about nighttime care,2
+05_P2_18,5,P2,gemini,P2_18,高(必須),A,患者の施設入所検討発言,Patient considers facility admission,2
+05_P2_19,5,P2,gemini,P2_19,高(必須),R,レスパイトケア早期活用提案,Plan: early respite care utilization,2
+05_P2_20,5,P2,gemini,P2_20,高(必須),R,退院前カンファ・対応マニュアル文書化,"Plan: pre-discharge conf, written care manual",2
+06_A2_01,6,A2,gemini,A2_01,中,B,体温37.8℃,Body temperature 37.8C,2
+06_A2_02,6,A2,gemini,A2_02,高(必須),B,脈拍102/分,Pulse 102/min,2
+06_A2_03,6,A2,gemini,A2_03,高(必須),B,血圧98/62mmHg,BP 98/62 mmHg,2
+06_A2_04,6,A2,gemini,A2_04,高(必須),S,起立性変化+22mmHg,Orthostatic change +22 mmHg,1
+06_A2_05,6,A2,gemini,A2_05,中,B,呼吸数22/分,Respiration 22/min,2
+06_A2_06,6,A2,gemini,A2_06,低(省略可),B,SpO2 97%,SpO2 97%,2
+06_A2_07,6,A2,gemini,A2_07,高(必須),B,BUN 38mg/dL,BUN 38 mg/dL,2
+06_A2_08,6,A2,gemini,A2_08,高(必須),A,Cr 1.4mg/dL(BUN/Cr比27),Cr 1.4 mg/dL (BUN/Cr=27),2
+06_A2_09,6,A2,gemini,A2_09,高(必須),A,Na 148mEq/L,Na 148 mEq/L,2
+06_A2_10,6,A2,gemini,A2_10,中,B,Hct 44%,Hct 44%,0
+06_A2_11,6,A2,gemini,A2_11,高(必須),S,尿量200mL(濃縮尿),Urine output 200mL (concentrated),0
+06_A2_12,6,A2,gemini,A2_12,高(必須),S,意識JCS I-2、見当識障害,"JCS I-2, disorientation",2
+06_A2_13,6,A2,gemini,A2_13,中,S,口腔乾燥・ツルゴール低下,"Oral dryness, decreased skin turgor",2
+06_A2_14,6,A2,gemini,A2_14,高(必須),B,3日間の経口摂取不足,3 days of poor oral intake,2
+06_A2_15,6,A2,gemini,A2_15,中,S,立ちくらみ自覚,Reports lightheadedness,2
+06_A2_16,6,A2,gemini,A2_16,中,B,軽度認知症既往(要介護2),Mild dementia (LTC level 2),1
+06_A2_17,6,A2,gemini,A2_17,中,B,日中独居・冷房使用回避,"Lives alone daytime, avoids AC",1
+06_A2_18,6,A2,gemini,A2_18,高(必須),B,ソルデム3A 80mL/時で輸液中,IV Soldem 3A at 80 mL/h,2
+06_A2_19,6,A2,gemini,A2_19,高(必須),R,Na補正速度の医師確認,Confirm Na correction rate with MD,2
+06_A2_20,6,A2,gemini,A2_20,中,R,退院支援・家族教育計画,Plan: discharge support and family education,2
+07_P1_01,7,P1,gpt,P1_01,低(省略可),B,体温36.4℃,Body temperature 36.4C,0
+07_P1_02,7,P1,gpt,P1_02,中,B,脈拍92/分,Pulse 92/min,0
+07_P1_03,7,P1,gpt,P1_03,中,B,血圧138/86mmHg,BP 138/86 mmHg,0
+07_P1_04,7,P1,gpt,P1_04,高(必須),B,体重58kg(4kg減),Weight 58kg (-4kg from dx),0
+07_P1_05,7,P1,gpt,P1_05,高(必須),A,CA19-9 482→860から低下,CA19-9 482 (down from 860),1
+07_P1_06,7,P1,gpt,P1_06,高(必須),A,肝転移巣わずかに縮小,Slight shrinkage of liver mets,2
+07_P1_07,7,P1,gpt,P1_07,中,B,WBC 4800、好中球2800,"WBC 4800, neutrophils 2800",0
+07_P1_08,7,P1,gpt,P1_08,低(省略可),B,Hb 11.2、Plt 18.5万,"Hb 11.2, Plt 185k",0
+07_P1_09,7,P1,gpt,P1_09,高(必須),S,FOLFIRINOX 2クール目前日,Day before 2nd FOLFIRINOX cycle,2
+07_P1_10,7,P1,gpt,P1_10,高(必須),B,第1クールGrade2悪心嘔吐,1st cycle: Grade 2 N/V,1
+07_P1_11,7,P1,gpt,P1_11,中,B,Grade2好中球減少(G-CSF不要),Grade 2 neutropenia (no G-CSF),0
+07_P1_12,7,P1,gpt,P1_12,低(省略可),B,Grade1末梢神経障害,Grade 1 peripheral neuropathy,0
+07_P1_13,7,P1,gpt,P1_13,高(必須),A,HADS不安14点(高値),HADS anxiety 14 (high),1
+07_P1_14,7,P1,gpt,P1_14,中,A,HADS抑うつ9点(境界),HADS depression 9 (borderline),0
+07_P1_15,7,P1,gpt,P1_15,中,S,入眠困難週5-6日,Insomnia 5-6 nights/wk,1
+07_P1_16,7,P1,gpt,P1_16,中,S,食事摂取5割,Food intake 50%,1
+07_P1_17,7,P1,gpt,P1_17,中,B,妻・長男(中2)・長女(高2),"Wife, son (8th grade), daughter (11th grade)",0
+07_P1_18,7,P1,gpt,P1_18,高(必須),A,子どもへの病状説明未完,Disclosure to children incomplete,1
+07_P1_19,7,P1,gpt,P1_19,高(必須),R,緩和ケアチーム介入依頼予定,Plan: palliative care team consult,2
+07_P1_20,7,P1,gpt,P1_20,高(必須),R,制吐療法見直し医師相談,Plan: review antiemetic regimen with MD,2
+08_P2_01,8,P2,claude,P2_01,低(省略可),B,体温36.7℃,Body temperature 36.7C,0
+08_P2_02,8,P2,claude,P2_02,低(省略可),B,脈拍88/分,Pulse 88/min,0
+08_P2_03,8,P2,claude,P2_03,低(省略可),B,血圧124/72mmHg,BP 124/72 mmHg,0
+08_P2_04,8,P2,claude,P2_04,低(省略可),B,呼吸数18/分,Respiration 18/min,0
+08_P2_05,8,P2,claude,P2_05,中,B,SpO2 94%(O2 1L),SpO2 94% (O2 1L),0
+08_P2_06,8,P2,claude,P2_06,高(必須),B,オキシコドン徐放40mg/日,Oxycodone SR 40mg/day,2
+08_P2_07,8,P2,claude,P2_07,高(必須),B,レスキューオキノーム5mg(1日2-3回),"Oxynorm rescue 5mg, 2-3x/day",0
+08_P2_08,8,P2,claude,P2_08,中,S,NRS安静2、体動5,"NRS at rest 2, on movement 5",2
+08_P2_09,8,P2,claude,P2_09,高(必須),B,PPS 50%,PPS 50%,2
+08_P2_10,8,P2,claude,P2_10,高(必須),B,肺腺癌Stage IV、骨転移,"Lung adenoCa Stage IV, bone mets",2
+08_P2_11,8,P2,claude,P2_11,高(必須),B,診断後14ヶ月、化学療法終了(BSC),"14mo since dx, chemo discontinued (BSC)",1
+08_P2_12,8,P2,claude,P2_12,中,B,入院第14病日、退院前,"Hospital day 14, pre-discharge",2
+08_P2_13,8,P2,claude,P2_13,高(必須),A,夫75歳(主介護者・軽度高血圧),"Husband 75yo (primary caregiver, mild HTN)",2
+08_P2_14,8,P2,claude,P2_14,中,A,娘45歳(車40分・週末訪問),"Daughter 45yo (40min drive, weekend visits)",1
+08_P2_15,8,P2,claude,P2_15,高(必須),A,Zarit 24点(中程度負担),Zarit score 24 (moderate burden),2
+08_P2_16,8,P2,claude,P2_16,高(必須),B,訪問診療・訪問看護週3・要介護2,"Home MD, visiting nurse 3x/wk, LTC level 2",2
+08_P2_17,8,P2,claude,P2_17,高(必須),A,夫の夜間対応への不安,Husband's anxiety about nighttime care,2
+08_P2_18,8,P2,claude,P2_18,高(必須),A,患者の施設入所検討発言,Patient considers facility admission,2
+08_P2_19,8,P2,claude,P2_19,高(必須),R,レスパイトケア早期活用提案,Plan: early respite care utilization,1
+08_P2_20,8,P2,claude,P2_20,高(必須),R,退院前カンファ・対応マニュアル文書化,"Plan: pre-discharge conf, written care manual",1
+09_P3_01,9,P3,claude,P3_01,低(省略可),B,体温36.5℃,Body temperature 36.5C,0
+09_P3_02,9,P3,claude,P3_02,低(省略可),B,脈拍76/分,Pulse 76/min,0
+09_P3_03,9,P3,claude,P3_03,低(省略可),B,血圧112/68mmHg,BP 112/68 mmHg,0
+09_P3_04,9,P3,claude,P3_04,低(省略可),B,呼吸数16/分,Respiration 16/min,0
+09_P3_05,9,P3,claude,P3_05,低(省略可),B,SpO2 96%,SpO2 96%,0
+09_P3_06,9,P3,claude,P3_06,中,S,腹水軽度(腹囲82cm)、膨満感NRS2,"Mild ascites (AC 82cm), distension NRS 2",0
+09_P3_07,9,P3,claude,P3_07,高(必須),B,フェンタニルパッチ4mg/3日,Fentanyl patch 4mg/3days,2
+09_P3_08,9,P3,claude,P3_08,中,A,悪心は定期投与で消失,Nausea controlled with regular antiemetics,1
+09_P3_09,9,P3,claude,P3_09,中,S,流動食5-7割摂取,Liquid diet 50-70% intake,0
+09_P3_10,9,P3,claude,P3_10,高(必須),A,FACIT-Sp 9点(低値),FACIT-Sp 9 (low),2
+09_P3_11,9,P3,claude,P3_11,高(必須),A,「意味/平安」サブスケール特に低下,Meaning/Peace subscale particularly low,1
+09_P3_12,9,P3,claude,P3_12,中,S,中途覚醒(思考性)2-3回/夜,Nocturnal awakening (rumination) 2-3x,1
+09_P3_13,9,P3,claude,P3_13,高(必須),A,臨床宗教師面会示唆,Spiritual care visit suggested,2
+09_P3_14,9,P3,claude,P3_14,高(必須),B,卵巣癌Stage IIIc、再発後2年,"Ovarian Ca Stage IIIc, 2y since recurrence",2
+09_P3_15,9,P3,claude,P3_15,中,B,緩和ケア移行3週前、入棟10病日,"PCU transition 3wk ago, day 10",2
+09_P3_16,9,P3,claude,P3_16,高(必須),B,抗癌治療終了,Active anticancer treatment terminated,2
+09_P3_17,9,P3,claude,P3_17,高(必須),A,未婚・両親他界・姉70歳月1面会,"Unmarried, parents deceased, sister 70yo monthly",2
+09_P3_18,9,P3,claude,P3_18,中,A,元教諭・ボランティア継続歴,"Former teacher, volunteer history",1
+09_P3_19,9,P3,claude,P3_19,高(必須),R,定時bedside傾聴時間設定,Plan: scheduled bedside listening time,0
+09_P3_20,9,P3,claude,P3_20,中,R,多職種カンファ霊的支援主題化,Plan: spiritual care theme in team conference,2
+10_A2_01,10,A2,claude,A2_01,中,B,体温37.8℃,Body temperature 37.8C,0
+10_A2_02,10,A2,claude,A2_02,高(必須),B,脈拍102/分,Pulse 102/min,0
+10_A2_03,10,A2,claude,A2_03,高(必須),B,血圧98/62mmHg,BP 98/62 mmHg,2
+10_A2_04,10,A2,claude,A2_04,高(必須),S,起立性変化+22mmHg,Orthostatic change +22 mmHg,1
+10_A2_05,10,A2,claude,A2_05,中,B,呼吸数22/分,Respiration 22/min,0
+10_A2_06,10,A2,claude,A2_06,低(省略可),B,SpO2 97%,SpO2 97%,0
+10_A2_07,10,A2,claude,A2_07,高(必須),B,BUN 38mg/dL,BUN 38 mg/dL,1
+10_A2_08,10,A2,claude,A2_08,高(必須),A,Cr 1.4mg/dL(BUN/Cr比27),Cr 1.4 mg/dL (BUN/Cr=27),2
+10_A2_09,10,A2,claude,A2_09,高(必須),A,Na 148mEq/L,Na 148 mEq/L,2
+10_A2_10,10,A2,claude,A2_10,中,B,Hct 44%,Hct 44%,0
+10_A2_11,10,A2,claude,A2_11,高(必須),S,尿量200mL(濃縮尿),Urine output 200mL (concentrated),0
+10_A2_12,10,A2,claude,A2_12,高(必須),S,意識JCS I-2、見当識障害,"JCS I-2, disorientation",2
+10_A2_13,10,A2,claude,A2_13,中,S,口腔乾燥・ツルゴール低下,"Oral dryness, decreased skin turgor",0
+10_A2_14,10,A2,claude,A2_14,高(必須),B,3日間の経口摂取不足,3 days of poor oral intake,2
+10_A2_15,10,A2,claude,A2_15,中,S,立ちくらみ自覚,Reports lightheadedness,0
+10_A2_16,10,A2,claude,A2_16,中,B,軽度認知症既往(要介護2),Mild dementia (LTC level 2),2
+10_A2_17,10,A2,claude,A2_17,中,B,日中独居・冷房使用回避,"Lives alone daytime, avoids AC",2
+10_A2_18,10,A2,claude,A2_18,高(必須),B,ソルデム3A 80mL/時で輸液中,IV Soldem 3A at 80 mL/h,2
+10_A2_19,10,A2,claude,A2_19,高(必須),R,Na補正速度の医師確認,Confirm Na correction rate with MD,2
+10_A2_20,10,A2,claude,A2_20,中,R,退院支援・家族教育計画,Plan: discharge support and family education,0
+11_C1_01,11,C1,gemini,C1_01,中,B,血圧138/86mmHg,BP 138/86 mmHg,0
+11_C1_02,11,C1,gemini,C1_02,中,B,体重68kg、BMI 26.5,"Weight 68kg, BMI 26.5",0
+11_C1_03,11,C1,gemini,C1_03,低(省略可),B,体温36.5℃,Body temperature 36.5C,0
+11_C1_04,11,C1,gemini,C1_04,低(省略可),B,脈拍76/分,Pulse 76/min,0
+11_C1_05,11,C1,gemini,C1_05,高(必須),B,HbA1c 8.2%,HbA1c 8.2%,2
+11_C1_06,11,C1,gemini,C1_06,高(必須),B,空腹時168、随時210mg/dL,"FBG 168, RBG 210 mg/dL",1
+11_C1_07,11,C1,gemini,C1_07,中,B,eGFR 78、尿アルブミン18,"eGFR 78, urine ALB 18 mg/gCr",0
+11_C1_08,11,C1,gemini,C1_08,高(必須),B,単純網膜症あり,Simple retinopathy present,2
+11_C1_09,11,C1,gemini,C1_09,中,A,本日血糖プロフィール(4測定),Today's BG profile (4 measurements),0
+11_C1_10,11,C1,gemini,C1_10,高(必須),B,インスリン4-4-4+持効型8単位,Insulin 4-4-4 + basal 8U,1
+11_C1_11,11,C1,gemini,C1_11,高(必須),A,自己注射手技ほぼ習得,Self-injection technique mostly mastered,2
+11_C1_12,11,C1,gemini,C1_12,中,A,SMBG 1日4回問題なし,"SMBG 4x/day, no issues",1
+11_C1_13,11,C1,gemini,C1_13,中,B,持効型インスリン本日2日目,Basal insulin day 2,2
+11_C1_14,11,C1,gemini,C1_14,中,B,罹病期間8年,8-year disease duration,2
+11_C1_15,11,C1,gemini,C1_15,高(必須),B,治療中断歴(過去2年で4ヶ月),Treatment interruption (4mo in past 2y),1
+11_C1_16,11,C1,gemini,C1_16,中,B,教育入院第2病日,Educational admission day 2,1
+11_C1_17,11,C1,gemini,C1_17,高(必須),A,動機づけ明確(孫の存在),Clear motivation (grandchild),2
+11_C1_18,11,C1,gemini,C1_18,高(必須),A,夫の支援体制,Husband's support system,2
+11_C1_19,11,C1,gemini,C1_19,中,A,職業(事務職)と職場昼食課題,"Office worker, workplace lunch challenge",1
+11_C1_20,11,C1,gemini,C1_20,高(必須),R,退院後フォロー計画(外来短縮・電話),Plan: short-interval clinic + tel f/u,2
+12_A1_01,12,A1,claude,A1_01,中,B,体温37.2℃,Body temperature 37.2C,2
+12_A1_02,12,A1,claude,A1_02,中,B,脈拍88/分,Pulse 88/min,0
+12_A1_03,12,A1,claude,A1_03,中,B,血圧132/78mmHg,BP 132/78 mmHg,0
+12_A1_04,12,A1,claude,A1_04,低(省略可),B,呼吸数18/分,Respiration 18/min,0
+12_A1_05,12,A1,claude,A1_05,低(省略可),B,SpO2 98%,SpO2 98% (room air),0
+12_A1_06,12,A1,claude,A1_06,高(必須),S,NRS安静時4/10,NRS at rest 4/10,2
+12_A1_07,12,A1,claude,A1_07,高(必須),S,NRS体動時7/10,NRS on movement 7/10,2
+12_A1_08,12,A1,claude,A1_08,中,S,夜間覚醒2回(うち1回は痛み起因),Nocturnal awakening 2x (1x pain-related),2
+12_A1_09,12,A1,claude,A1_09,中,S,鎮痛薬効果の自覚持続2時間,Perceived analgesic effect lasts 2h,2
+12_A1_10,12,A1,claude,A1_10,高(必須),B,腹腔鏡下虫垂切除術後第1病日,POD1 after laparoscopic appendectomy,2
+12_A1_11,12,A1,claude,A1_11,中,A,創部3箇所、ガーゼ汚染なし,"3 wound sites, no gauze soiling",0
+12_A1_12,12,A1,claude,A1_12,中,A,創部発赤・腫脹なし,No wound redness or swelling,1
+12_A1_13,12,A1,claude,A1_13,高(必須),B,朝5時ロキソプロフェン60mg内服,Loxoprofen 60mg PO at 5am,1
+12_A1_14,12,A1,claude,A1_14,中,A,病室内自力歩行可,Independent ambulation within room,0
+12_A1_15,12,A1,claude,A1_15,中,A,トイレ要付き添い,Requires assistance to toilet,0
+12_A1_16,12,A1,claude,A1_16,低(省略可),A,朝食半分摂取,Half of breakfast consumed,0
+12_A1_17,12,A1,claude,A1_17,中,A,腸蠕動音減弱,Reduced bowel sounds,0
+12_A1_18,12,A1,claude,A1_18,高(必須),R,定時鎮痛見直しを医師に相談予定,Plan to consult MD re: regular analgesia,2
+12_A1_19,12,A1,claude,A1_19,高(必須),R,NRS 4以上で頓服推奨,Recommend PRN if NRS >=4,0
+12_A1_20,12,A1,claude,A1_20,中,R,午前午後各1回の歩行訓練継続,Continue ambulation training 2x/day,0
+13_C1_01,13,C1,gpt,C1_01,中,B,血圧138/86mmHg,BP 138/86 mmHg,0
+13_C1_02,13,C1,gpt,C1_02,中,B,体重68kg、BMI 26.5,"Weight 68kg, BMI 26.5",0
+13_C1_03,13,C1,gpt,C1_03,低(省略可),B,体温36.5℃,Body temperature 36.5C,0
+13_C1_04,13,C1,gpt,C1_04,低(省略可),B,脈拍76/分,Pulse 76/min,0
+13_C1_05,13,C1,gpt,C1_05,高(必須),B,HbA1c 8.2%,HbA1c 8.2%,2
+13_C1_06,13,C1,gpt,C1_06,高(必須),B,空腹時168、随時210mg/dL,"FBG 168, RBG 210 mg/dL",0
+13_C1_07,13,C1,gpt,C1_07,中,B,eGFR 78、尿アルブミン18,"eGFR 78, urine ALB 18 mg/gCr",0
+13_C1_08,13,C1,gpt,C1_08,高(必須),B,単純網膜症あり,Simple retinopathy present,2
+13_C1_09,13,C1,gpt,C1_09,中,A,本日血糖プロフィール(4測定),Today's BG profile (4 measurements),0
+13_C1_10,13,C1,gpt,C1_10,高(必須),B,インスリン4-4-4+持効型8単位,Insulin 4-4-4 + basal 8U,1
+13_C1_11,13,C1,gpt,C1_11,高(必須),A,自己注射手技ほぼ習得,Self-injection technique mostly mastered,2
+13_C1_12,13,C1,gpt,C1_12,中,A,SMBG 1日4回問題なし,"SMBG 4x/day, no issues",1
+13_C1_13,13,C1,gpt,C1_13,中,B,持効型インスリン本日2日目,Basal insulin day 2,0
+13_C1_14,13,C1,gpt,C1_14,中,B,罹病期間8年,8-year disease duration,0
+13_C1_15,13,C1,gpt,C1_15,高(必須),B,治療中断歴(過去2年で4ヶ月),Treatment interruption (4mo in past 2y),1
+13_C1_16,13,C1,gpt,C1_16,中,B,教育入院第2病日,Educational admission day 2,2
+13_C1_17,13,C1,gpt,C1_17,高(必須),A,動機づけ明確(孫の存在),Clear motivation (grandchild),2
+13_C1_18,13,C1,gpt,C1_18,高(必須),A,夫の支援体制,Husband's support system,2
+13_C1_19,13,C1,gpt,C1_19,中,A,職業(事務職)と職場昼食課題,"Office worker, workplace lunch challenge",1
+13_C1_20,13,C1,gpt,C1_20,高(必須),R,退院後フォロー計画(外来短縮・電話),Plan: short-interval clinic + tel f/u,2
+14_A1_01,14,A1,gpt,A1_01,中,B,体温37.2℃,Body temperature 37.2C,0
+14_A1_02,14,A1,gpt,A1_02,中,B,脈拍88/分,Pulse 88/min,0
+14_A1_03,14,A1,gpt,A1_03,中,B,血圧132/78mmHg,BP 132/78 mmHg,0
+14_A1_04,14,A1,gpt,A1_04,低(省略可),B,呼吸数18/分,Respiration 18/min,0
+14_A1_05,14,A1,gpt,A1_05,低(省略可),B,SpO2 98%,SpO2 98% (room air),0
+14_A1_06,14,A1,gpt,A1_06,高(必須),S,NRS安静時4/10,NRS at rest 4/10,0
+14_A1_07,14,A1,gpt,A1_07,高(必須),S,NRS体動時7/10,NRS on movement 7/10,1
+14_A1_08,14,A1,gpt,A1_08,中,S,夜間覚醒2回(うち1回は痛み起因),Nocturnal awakening 2x (1x pain-related),1
+14_A1_09,14,A1,gpt,A1_09,中,S,鎮痛薬効果の自覚持続2時間,Perceived analgesic effect lasts 2h,2
+14_A1_10,14,A1,gpt,A1_10,高(必須),B,腹腔鏡下虫垂切除術後第1病日,POD1 after laparoscopic appendectomy,2
+14_A1_11,14,A1,gpt,A1_11,中,A,創部3箇所、ガーゼ汚染なし,"3 wound sites, no gauze soiling",1
+14_A1_12,14,A1,gpt,A1_12,中,A,創部発赤・腫脹なし,No wound redness or swelling,1
+14_A1_13,14,A1,gpt,A1_13,高(必須),B,朝5時ロキソプロフェン60mg内服,Loxoprofen 60mg PO at 5am,0
+14_A1_14,14,A1,gpt,A1_14,中,A,病室内自力歩行可,Independent ambulation within room,0
+14_A1_15,14,A1,gpt,A1_15,中,A,トイレ要付き添い,Requires assistance to toilet,0
+14_A1_16,14,A1,gpt,A1_16,低(省略可),A,朝食半分摂取,Half of breakfast consumed,0
+14_A1_17,14,A1,gpt,A1_17,中,A,腸蠕動音減弱,Reduced bowel sounds,0
+14_A1_18,14,A1,gpt,A1_18,高(必須),R,定時鎮痛見直しを医師に相談予定,Plan to consult MD re: regular analgesia,2
+14_A1_19,14,A1,gpt,A1_19,高(必須),R,NRS 4以上で頓服推奨,Recommend PRN if NRS >=4,0
+14_A1_20,14,A1,gpt,A1_20,中,R,午前午後各1回の歩行訓練継続,Continue ambulation training 2x/day,0
+15_P2_01,15,P2,gpt,P2_01,低(省略可),B,体温36.7℃,Body temperature 36.7C,0
+15_P2_02,15,P2,gpt,P2_02,低(省略可),B,脈拍88/分,Pulse 88/min,0
+15_P2_03,15,P2,gpt,P2_03,低(省略可),B,血圧124/72mmHg,BP 124/72 mmHg,0
+15_P2_04,15,P2,gpt,P2_04,低(省略可),B,呼吸数18/分,Respiration 18/min,0
+15_P2_05,15,P2,gpt,P2_05,中,B,SpO2 94%(O2 1L),SpO2 94% (O2 1L),0
+15_P2_06,15,P2,gpt,P2_06,高(必須),B,オキシコドン徐放40mg/日,Oxycodone SR 40mg/day,0
+15_P2_07,15,P2,gpt,P2_07,高(必須),B,レスキューオキノーム5mg(1日2-3回),"Oxynorm rescue 5mg, 2-3x/day",0
+15_P2_08,15,P2,gpt,P2_08,中,S,NRS安静2、体動5,"NRS at rest 2, on movement 5",0
+15_P2_09,15,P2,gpt,P2_09,高(必須),B,PPS 50%,PPS 50%,0
+15_P2_10,15,P2,gpt,P2_10,高(必須),B,肺腺癌Stage IV、骨転移,"Lung adenoCa Stage IV, bone mets",1
+15_P2_11,15,P2,gpt,P2_11,高(必須),B,診断後14ヶ月、化学療法終了(BSC),"14mo since dx, chemo discontinued (BSC)",1
+15_P2_12,15,P2,gpt,P2_12,中,B,入院第14病日、退院前,"Hospital day 14, pre-discharge",1
+15_P2_13,15,P2,gpt,P2_13,高(必須),A,夫75歳(主介護者・軽度高血圧),"Husband 75yo (primary caregiver, mild HTN)",1
+15_P2_14,15,P2,gpt,P2_14,中,A,娘45歳(車40分・週末訪問),"Daughter 45yo (40min drive, weekend visits)",0
+15_P2_15,15,P2,gpt,P2_15,高(必須),A,Zarit 24点(中程度負担),Zarit score 24 (moderate burden),1
+15_P2_16,15,P2,gpt,P2_16,高(必須),B,訪問診療・訪問看護週3・要介護2,"Home MD, visiting nurse 3x/wk, LTC level 2",1
+15_P2_17,15,P2,gpt,P2_17,高(必須),A,夫の夜間対応への不安,Husband's anxiety about nighttime care,2
+15_P2_18,15,P2,gpt,P2_18,高(必須),A,患者の施設入所検討発言,Patient considers facility admission,2
+15_P2_19,15,P2,gpt,P2_19,高(必須),R,レスパイトケア早期活用提案,Plan: early respite care utilization,2
+15_P2_20,15,P2,gpt,P2_20,高(必須),R,退院前カンファ・対応マニュアル文書化,"Plan: pre-discharge conf, written care manual",1
+16_C2_01,16,C2,gemini,C2_01,低(省略可),B,体温36.4℃,Body temperature 36.4C,0
+16_C2_02,16,C2,gemini,C2_02,高(必須),B,脈拍72/分(心房細動・絶対不整脈),"Pulse 72/min (AF, irregularly irregular)",0
+16_C2_03,16,C2,gemini,C2_03,中,B,血圧118/68mmHg,BP 118/68 mmHg,0
+16_C2_04,16,C2,gemini,C2_04,低(省略可),B,呼吸数18/分,Respiration 18/min,0
+16_C2_05,16,C2,gemini,C2_05,低(省略可),B,SpO2 96%,SpO2 96% (room air),0
+16_C2_06,16,C2,gemini,C2_06,高(必須),B,体重72→66kg(6kg減),Weight 72->66kg (-6kg),2
+16_C2_07,16,C2,gemini,C2_07,高(必須),A,BNP 1420→285pg/mL,BNP 1420->285 pg/mL,1
+16_C2_08,16,C2,gemini,C2_08,高(必須),B,LVEF 38%,LVEF 38%,0
+16_C2_09,16,C2,gemini,C2_09,高(必須),A,6分間歩行180→320m,6MWT 180->320m,1
+16_C2_10,16,C2,gemini,C2_10,中,A,下腿浮腫消失、ラ音消失,Lower limb edema and rales resolved,1
+16_C2_11,16,C2,gemini,C2_11,高(必須),B,心房細動・CKD G3a・高血圧既往,"AF, CKD G3a, HTN history",2
+16_C2_12,16,C2,gemini,C2_12,高(必須),B,入院第18病日、退院前日,"Hospital day 18, day before discharge",2
+16_C2_13,16,C2,gemini,C2_13,中,B,利尿薬調整・心リハ完遂,"Diuretic adjustment, cardiac rehab completed",1
+16_C2_14,16,C2,gemini,C2_14,高(必須),A,再増悪不安,Anxiety about re-exacerbation,2
+16_C2_15,16,C2,gemini,C2_15,高(必須),A,妻76歳との二人暮らし、介護力制限,"Lives with 76yo wife, limited caregiving",2
+16_C2_16,16,C2,gemini,C2_16,中,A,長男家族の距離(車30分),Eldest son's family 30min drive,1
+16_C2_17,16,C2,gemini,C2_17,中,A,塩分制限継続困難の自覚,Acknowledges difficulty with salt restriction,2
+16_C2_18,16,C2,gemini,C2_18,高(必須),R,訪問看護週2回導入,Visiting nursing 2x/wk planned,2
+16_C2_19,16,C2,gemini,C2_19,中,R,多職種カンファレンス予定,Multidisciplinary conference scheduled,2
+16_C2_20,16,C2,gemini,C2_20,高(必須),R,体重・塩分・活動量・受診基準指導,"Education: weight, salt, activity, ER criteria",2
+17_C3_01,17,C3,gpt,C3_01,低(省略可),B,体温36.6℃,Body temperature 36.6C,0
+17_C3_02,17,C3,gpt,C3_02,低(省略可),B,脈拍80/分,Pulse 80/min,0
+17_C3_03,17,C3,gpt,C3_03,低(省略可),B,血圧132/78mmHg,BP 132/78 mmHg,0
+17_C3_04,17,C3,gpt,C3_04,中,B,BMI 27.8,BMI 27.8,0
+17_C3_05,17,C3,gpt,C3_05,高(必須),B,可動域 屈曲95度／伸展-10度,ROM flexion 95deg/extension -10deg,0
+17_C3_06,17,C3,gpt,C3_06,中,B,内反変形・屈曲拘縮,"Varus deformity, flexion contracture",0
+17_C3_07,17,C3,gpt,C3_07,高(必須),B,K-L Grade IV,Kellgren-Lawrence Grade IV,0
+17_C3_08,17,C3,gpt,C3_08,中,B,6分間歩行280m,6MWT 280m,0
+17_C3_09,17,C3,gpt,C3_09,高(必須),S,NRS安静5、歩行時8,"NRS at rest 5, walking 8",0
+17_C3_10,17,C3,gpt,C3_10,中,S,夜間覚醒週3-4回,Nocturnal awakening 3-4x/wk,0
+17_C3_11,17,C3,gpt,C3_11,中,B,T字杖使用、屋外歩行30分上限,"Uses cane, outdoor walking limit 30min",0
+17_C3_12,17,C3,gpt,C3_12,高(必須),B,罹病期間5年,5-year disease duration,2
+17_C3_13,17,C3,gpt,C3_13,高(必須),B,NSAIDs長期使用・PPI併用,Long-term NSAIDs with PPI,1
+17_C3_14,17,C3,gpt,C3_14,高(必須),B,胃潰瘍既往,History of gastric ulcer,2
+17_C3_15,17,C3,gpt,C3_15,中,B,セレコキシブ200mg/日,Celecoxib 200mg/day,1
+17_C3_16,17,C3,gpt,C3_16,高(必須),S,明日右TKA予定,Right TKA scheduled tomorrow,2
+17_C3_17,17,C3,gpt,C3_17,高(必須),A,HADS不安7点(境界域),HADS anxiety 7 (borderline),1
+17_C3_18,17,C3,gpt,C3_18,高(必須),A,手術効果への半信半疑,Skepticism about surgical outcome,2
+17_C3_19,17,C3,gpt,C3_19,中,A,夫65歳の家事支援,65yo husband's home support,0
+17_C3_20,17,C3,gpt,C3_20,高(必須),R,多モード鎮痛・術前夜オリエン計画,"Plan: multimodal analgesia, pre-op orientation",2
+18_C2_01,18,C2,claude,C2_01,低(省略可),B,体温36.4℃,Body temperature 36.4C,0
+18_C2_02,18,C2,claude,C2_02,高(必須),B,脈拍72/分(心房細動・絶対不整脈),"Pulse 72/min (AF, irregularly irregular)",0
+18_C2_03,18,C2,claude,C2_03,中,B,血圧118/68mmHg,BP 118/68 mmHg,0
+18_C2_04,18,C2,claude,C2_04,低(省略可),B,呼吸数18/分,Respiration 18/min,0
+18_C2_05,18,C2,claude,C2_05,低(省略可),B,SpO2 96%,SpO2 96% (room air),0
+18_C2_06,18,C2,claude,C2_06,高(必須),B,体重72→66kg(6kg減),Weight 72->66kg (-6kg),2
+18_C2_07,18,C2,claude,C2_07,高(必須),A,BNP 1420→285pg/mL,BNP 1420->285 pg/mL,2
+18_C2_08,18,C2,claude,C2_08,高(必須),B,LVEF 38%,LVEF 38%,2
+18_C2_09,18,C2,claude,C2_09,高(必須),A,6分間歩行180→320m,6MWT 180->320m,2
+18_C2_10,18,C2,claude,C2_10,中,A,下腿浮腫消失、ラ音消失,Lower limb edema and rales resolved,0
+18_C2_11,18,C2,claude,C2_11,高(必須),B,心房細動・CKD G3a・高血圧既往,"AF, CKD G3a, HTN history",0
+18_C2_12,18,C2,claude,C2_12,高(必須),B,入院第18病日、退院前日,"Hospital day 18, day before discharge",2
+18_C2_13,18,C2,claude,C2_13,中,B,利尿薬調整・心リハ完遂,"Diuretic adjustment, cardiac rehab completed",1
+18_C2_14,18,C2,claude,C2_14,高(必須),A,再増悪不安,Anxiety about re-exacerbation,2
+18_C2_15,18,C2,claude,C2_15,高(必須),A,妻76歳との二人暮らし、介護力制限,"Lives with 76yo wife, limited caregiving",2
+18_C2_16,18,C2,claude,C2_16,中,A,長男家族の距離(車30分),Eldest son's family 30min drive,0
+18_C2_17,18,C2,claude,C2_17,中,A,塩分制限継続困難の自覚,Acknowledges difficulty with salt restriction,2
+18_C2_18,18,C2,claude,C2_18,高(必須),R,訪問看護週2回導入,Visiting nursing 2x/wk planned,2
+18_C2_19,18,C2,claude,C2_19,中,R,多職種カンファレンス予定,Multidisciplinary conference scheduled,2
+18_C2_20,18,C2,claude,C2_20,高(必須),R,体重・塩分・活動量・受診基準指導,"Education: weight, salt, activity, ER criteria",1
+19_C3_01,19,C3,gemini,C3_01,低(省略可),B,体温36.6℃,Body temperature 36.6C,0
+19_C3_02,19,C3,gemini,C3_02,低(省略可),B,脈拍80/分,Pulse 80/min,0
+19_C3_03,19,C3,gemini,C3_03,低(省略可),B,血圧132/78mmHg,BP 132/78 mmHg,0
+19_C3_04,19,C3,gemini,C3_04,中,B,BMI 27.8,BMI 27.8,2
+19_C3_05,19,C3,gemini,C3_05,高(必須),B,可動域 屈曲95度／伸展-10度,ROM flexion 95deg/extension -10deg,2
+19_C3_06,19,C3,gemini,C3_06,中,B,内反変形・屈曲拘縮,"Varus deformity, flexion contracture",0
+19_C3_07,19,C3,gemini,C3_07,高(必須),B,K-L Grade IV,Kellgren-Lawrence Grade IV,0
+19_C3_08,19,C3,gemini,C3_08,中,B,6分間歩行280m,6MWT 280m,0
+19_C3_09,19,C3,gemini,C3_09,高(必須),S,NRS安静5、歩行時8,"NRS at rest 5, walking 8",2
+19_C3_10,19,C3,gemini,C3_10,中,S,夜間覚醒週3-4回,Nocturnal awakening 3-4x/wk,0
+19_C3_11,19,C3,gemini,C3_11,中,B,T字杖使用、屋外歩行30分上限,"Uses cane, outdoor walking limit 30min",0
+19_C3_12,19,C3,gemini,C3_12,高(必須),B,罹病期間5年,5-year disease duration,2
+19_C3_13,19,C3,gemini,C3_13,高(必須),B,NSAIDs長期使用・PPI併用,Long-term NSAIDs with PPI,1
+19_C3_14,19,C3,gemini,C3_14,高(必須),B,胃潰瘍既往,History of gastric ulcer,2
+19_C3_15,19,C3,gemini,C3_15,中,B,セレコキシブ200mg/日,Celecoxib 200mg/day,0
+19_C3_16,19,C3,gemini,C3_16,高(必須),S,明日右TKA予定,Right TKA scheduled tomorrow,2
+19_C3_17,19,C3,gemini,C3_17,高(必須),A,HADS不安7点(境界域),HADS anxiety 7 (borderline),2
+19_C3_18,19,C3,gemini,C3_18,高(必須),A,手術効果への半信半疑,Skepticism about surgical outcome,2
+19_C3_19,19,C3,gemini,C3_19,中,A,夫65歳の家事支援,65yo husband's home support,0
+19_C3_20,19,C3,gemini,C3_20,高(必須),R,多モード鎮痛・術前夜オリエン計画,"Plan: multimodal analgesia, pre-op orientation",2
+20_P1_01,20,P1,claude,P1_01,低(省略可),B,体温36.4℃,Body temperature 36.4C,0
+20_P1_02,20,P1,claude,P1_02,中,B,脈拍92/分,Pulse 92/min,0
+20_P1_03,20,P1,claude,P1_03,中,B,血圧138/86mmHg,BP 138/86 mmHg,0
+20_P1_04,20,P1,claude,P1_04,高(必須),B,体重58kg(4kg減),Weight 58kg (-4kg from dx),2
+20_P1_05,20,P1,claude,P1_05,高(必須),A,CA19-9 482→860から低下,CA19-9 482 (down from 860),2
+20_P1_06,20,P1,claude,P1_06,高(必須),A,肝転移巣わずかに縮小,Slight shrinkage of liver mets,2
+20_P1_07,20,P1,claude,P1_07,中,B,WBC 4800、好中球2800,"WBC 4800, neutrophils 2800",0
+20_P1_08,20,P1,claude,P1_08,低(省略可),B,Hb 11.2、Plt 18.5万,"Hb 11.2, Plt 185k",0
+20_P1_09,20,P1,claude,P1_09,高(必須),S,FOLFIRINOX 2クール目前日,Day before 2nd FOLFIRINOX cycle,2
+20_P1_10,20,P1,claude,P1_10,高(必須),B,第1クールGrade2悪心嘔吐,1st cycle: Grade 2 N/V,2
+20_P1_11,20,P1,claude,P1_11,中,B,Grade2好中球減少(G-CSF不要),Grade 2 neutropenia (no G-CSF),0
+20_P1_12,20,P1,claude,P1_12,低(省略可),B,Grade1末梢神経障害,Grade 1 peripheral neuropathy,0
+20_P1_13,20,P1,claude,P1_13,高(必須),A,HADS不安14点(高値),HADS anxiety 14 (high),2
+20_P1_14,20,P1,claude,P1_14,中,A,HADS抑うつ9点(境界),HADS depression 9 (borderline),0
+20_P1_15,20,P1,claude,P1_15,中,S,入眠困難週5-6日,Insomnia 5-6 nights/wk,1
+20_P1_16,20,P1,claude,P1_16,中,S,食事摂取5割,Food intake 50%,1
+20_P1_17,20,P1,claude,P1_17,中,B,妻・長男(中2)・長女(高2),"Wife, son (8th grade), daughter (11th grade)",0
+20_P1_18,20,P1,claude,P1_18,高(必須),A,子どもへの病状説明未完,Disclosure to children incomplete,2
+20_P1_19,20,P1,claude,P1_19,高(必須),R,緩和ケアチーム介入依頼予定,Plan: palliative care team consult,2
+20_P1_20,20,P1,claude,P1_20,高(必須),R,制吐療法見直し医師相談,Plan: review antiemetic regimen with MD,2

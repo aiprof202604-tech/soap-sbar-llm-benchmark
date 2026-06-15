@@ -1,0 +1,181 @@
+tag_id,症例,分野,事実（日本語）,Fact (EN),記載先,重要度
+A1_01,A1,acute,体温37.2℃,Body temperature 37.2C,B,中
+A1_02,A1,acute,脈拍88/分,Pulse 88/min,B,低
+A1_03,A1,acute,血圧132/78mmHg,BP 132/78 mmHg,B,低
+A1_04,A1,acute,呼吸数18/分,Respiration 18/min,B,低
+A1_05,A1,acute,SpO2 98%,SpO2 98% (room air),B,低
+A1_06,A1,acute,NRS安静時4/10,NRS at rest 4/10,S,高
+A1_07,A1,acute,NRS体動時7/10,NRS on movement 7/10,S,高
+A1_08,A1,acute,夜間覚醒2回(うち1回は痛み起因),Nocturnal awakening 2x (1x pain-related),S,中
+A1_09,A1,acute,鎮痛薬効果の自覚持続2時間,Perceived analgesic effect lasts 2h,S,中
+A1_10,A1,acute,腹腔鏡下虫垂切除術後第1病日,POD1 after laparoscopic appendectomy,B,高
+A1_11,A1,acute,創部3箇所、ガーゼ汚染なし,"3 wound sites, no gauze soiling",A,中
+A1_12,A1,acute,創部発赤・腫脹なし,No wound redness or swelling,A,中
+A1_13,A1,acute,朝5時ロキソプロフェン60mg内服,Loxoprofen 60mg PO at 5am,B,高
+A1_14,A1,acute,病室内自力歩行可,Independent ambulation within room,A,中
+A1_15,A1,acute,トイレ要付き添い,Requires assistance to toilet,A,中
+A1_16,A1,acute,朝食半分摂取,Half of breakfast consumed,A,低
+A1_17,A1,acute,腸蠕動音減弱,Reduced bowel sounds,A,中
+A1_18,A1,acute,定時鎮痛見直しを医師に相談予定,Plan to consult MD re: regular analgesia,R,高
+A1_19,A1,acute,NRS 4以上で頓服推奨,Recommend PRN if NRS >=4,R,高
+A1_20,A1,acute,午前午後各1回の歩行訓練継続,Continue ambulation training 2x/day,R,中
+A2_01,A2,acute,体温37.8℃,Body temperature 37.8C,B,中
+A2_02,A2,acute,脈拍102/分,Pulse 102/min,B,高
+A2_03,A2,acute,血圧98/62mmHg,BP 98/62 mmHg,B,高
+A2_04,A2,acute,起立性変化+22mmHg,Orthostatic change +22 mmHg,S,高
+A2_05,A2,acute,呼吸数22/分,Respiration 22/min,B,中
+A2_06,A2,acute,SpO2 97%,SpO2 97%,B,低
+A2_07,A2,acute,BUN 38mg/dL,BUN 38 mg/dL,B,高
+A2_08,A2,acute,Cr 1.4mg/dL(BUN/Cr比27),Cr 1.4 mg/dL (BUN/Cr=27),A,高
+A2_09,A2,acute,Na 148mEq/L,Na 148 mEq/L,A,高
+A2_10,A2,acute,Hct 44%,Hct 44%,B,中
+A2_11,A2,acute,尿量200mL(濃縮尿),Urine output 200mL (concentrated),S,高
+A2_12,A2,acute,意識JCS I-2、見当識障害,"JCS I-2, disorientation",S,高
+A2_13,A2,acute,口腔乾燥・ツルゴール低下,"Oral dryness, decreased skin turgor",S,中
+A2_14,A2,acute,3日間の経口摂取不足,3 days of poor oral intake,B,高
+A2_15,A2,acute,立ちくらみ自覚,Reports lightheadedness,S,中
+A2_16,A2,acute,軽度認知症既往(要介護2),Mild dementia (LTC level 2),B,中
+A2_17,A2,acute,日中独居・冷房使用回避,"Lives alone daytime, avoids AC",B,中
+A2_18,A2,acute,ソルデム3A 80mL/時で輸液中,IV Soldem 3A at 80 mL/h,B,高
+A2_19,A2,acute,Na補正速度の医師確認,Confirm Na correction rate with MD,R,高
+A2_20,A2,acute,退院支援・家族教育計画,Plan: discharge support and family education,R,中
+A3_01,A3,acute,体温36.8℃,Body temperature 36.8C,B,低
+A3_02,A3,acute,脈拍96/分,Pulse 96/min,B,中
+A3_03,A3,acute,血圧138/82mmHg,BP 138/82 mmHg,B,低
+A3_04,A3,acute,呼吸数24/分,Respiration 24/min,S,高
+A3_05,A3,acute,SpO2 91%(O2 2L),SpO2 91% (O2 2L),S,高
+A3_06,A3,acute,Room air SpO2 88%,Room air SpO2 88%,B,高
+A3_07,A3,acute,労作時SpO2 86%,SpO2 86% on exertion,A,高
+A3_08,A3,acute,pH 7.34,pH 7.34,A,高
+A3_09,A3,acute,PaCO2 58mmHg(CO2貯留),PaCO2 58 mmHg (retention),A,高
+A3_10,A3,acute,PaO2 56mmHg,PaO2 56 mmHg,A,高
+A3_11,A3,acute,HCO3- 30mEq/L,HCO3- 30 mEq/L,A,中
+A3_12,A3,acute,両肺呼気性喘鳴・右下湿性ラ音,"Bilateral expiratory wheezes, R-lower wet rales",S,高
+A3_13,A3,acute,喀痰黄色粘稠1日30mL,Yellow viscous sputum 30mL/day,S,中
+A3_14,A3,acute,mMRC Grade 3,mMRC Grade 3,B,高
+A3_15,A3,acute,口すぼめ呼吸・肋間筋使用,"Pursed-lip breathing, intercostal use",S,中
+A3_16,A3,acute,喫煙歴40年・10年前禁煙,"40 pack-year history, quit 10y ago",B,中
+A3_17,A3,acute,吸入薬・ステロイド・抗菌薬使用中,"On inhalers, steroids, antibiotics",B,高
+A3_18,A3,acute,酸素2L/分上限(CO2貯留考慮),O2 cap at 2L/min (CO2 retention),R,高
+A3_19,A3,acute,HOT導入への本人消極性,Patient reluctant re: HOT introduction,A,高
+A3_20,A3,acute,家族面談・呼吸ケアチーム連携計画,"Plan: family conference, respiratory care team",R,中
+C1_01,C1,chronic,血圧138/86mmHg,BP 138/86 mmHg,B,中
+C1_02,C1,chronic,体重68kg、BMI 26.5,"Weight 68kg, BMI 26.5",B,中
+C1_03,C1,chronic,体温36.5℃,Body temperature 36.5C,B,低
+C1_04,C1,chronic,脈拍76/分,Pulse 76/min,B,低
+C1_05,C1,chronic,HbA1c 8.2%,HbA1c 8.2%,B,高
+C1_06,C1,chronic,空腹時168、随時210mg/dL,"FBG 168, RBG 210 mg/dL",B,高
+C1_07,C1,chronic,eGFR 78、尿アルブミン18,"eGFR 78, urine ALB 18 mg/gCr",B,中
+C1_08,C1,chronic,単純網膜症あり,Simple retinopathy present,B,高
+C1_09,C1,chronic,本日血糖プロフィール(4測定),Today's BG profile (4 measurements),A,中
+C1_10,C1,chronic,インスリン4-4-4+持効型8単位,Insulin 4-4-4 + basal 8U,B,高
+C1_11,C1,chronic,自己注射手技ほぼ習得,Self-injection technique mostly mastered,A,高
+C1_12,C1,chronic,SMBG 1日4回問題なし,"SMBG 4x/day, no issues",A,中
+C1_13,C1,chronic,持効型インスリン本日2日目,Basal insulin day 2,B,中
+C1_14,C1,chronic,罹病期間8年,8-year disease duration,B,中
+C1_15,C1,chronic,治療中断歴(過去2年で4ヶ月),Treatment interruption (4mo in past 2y),B,高
+C1_16,C1,chronic,教育入院第2病日,Educational admission day 2,B,中
+C1_17,C1,chronic,動機づけ明確(孫の存在),Clear motivation (grandchild),A,高
+C1_18,C1,chronic,夫の支援体制,Husband's support system,A,高
+C1_19,C1,chronic,職業(事務職)と職場昼食課題,"Office worker, workplace lunch challenge",A,中
+C1_20,C1,chronic,退院後フォロー計画(外来短縮・電話),Plan: short-interval clinic + tel f/u,R,高
+C2_01,C2,chronic,体温36.4℃,Body temperature 36.4C,B,低
+C2_02,C2,chronic,脈拍72/分(心房細動・絶対不整脈),"Pulse 72/min (AF, irregularly irregular)",B,高
+C2_03,C2,chronic,血圧118/68mmHg,BP 118/68 mmHg,B,中
+C2_04,C2,chronic,呼吸数18/分,Respiration 18/min,B,低
+C2_05,C2,chronic,SpO2 96%,SpO2 96% (room air),B,低
+C2_06,C2,chronic,体重72→66kg(6kg減),Weight 72->66kg (-6kg),B,高
+C2_07,C2,chronic,BNP 1420→285pg/mL,BNP 1420->285 pg/mL,A,高
+C2_08,C2,chronic,LVEF 38%,LVEF 38%,B,高
+C2_09,C2,chronic,6分間歩行180→320m,6MWT 180->320m,A,高
+C2_10,C2,chronic,下腿浮腫消失、ラ音消失,Lower limb edema and rales resolved,A,中
+C2_11,C2,chronic,心房細動・CKD G3a・高血圧既往,"AF, CKD G3a, HTN history",B,高
+C2_12,C2,chronic,入院第18病日、退院前日,"Hospital day 18, day before discharge",B,高
+C2_13,C2,chronic,利尿薬調整・心リハ完遂,"Diuretic adjustment, cardiac rehab completed",B,中
+C2_14,C2,chronic,再増悪不安,Anxiety about re-exacerbation,A,高
+C2_15,C2,chronic,妻76歳との二人暮らし、介護力制限,"Lives with 76yo wife, limited caregiving",A,高
+C2_16,C2,chronic,長男家族の距離(車30分),Eldest son's family 30min drive,A,中
+C2_17,C2,chronic,塩分制限継続困難の自覚,Acknowledges difficulty with salt restriction,A,中
+C2_18,C2,chronic,訪問看護週2回導入,Visiting nursing 2x/wk planned,R,高
+C2_19,C2,chronic,多職種カンファレンス予定,Multidisciplinary conference scheduled,R,中
+C2_20,C2,chronic,体重・塩分・活動量・受診基準指導,"Education: weight, salt, activity, ER criteria",R,高
+C3_01,C3,chronic,体温36.6℃,Body temperature 36.6C,B,低
+C3_02,C3,chronic,脈拍80/分,Pulse 80/min,B,低
+C3_03,C3,chronic,血圧132/78mmHg,BP 132/78 mmHg,B,低
+C3_04,C3,chronic,BMI 27.8,BMI 27.8,B,中
+C3_05,C3,chronic,可動域 屈曲95度／伸展-10度,ROM flexion 95deg/extension -10deg,B,高
+C3_06,C3,chronic,内反変形・屈曲拘縮,"Varus deformity, flexion contracture",B,中
+C3_07,C3,chronic,K-L Grade IV,Kellgren-Lawrence Grade IV,B,高
+C3_08,C3,chronic,6分間歩行280m,6MWT 280m,B,中
+C3_09,C3,chronic,NRS安静5、歩行時8,"NRS at rest 5, walking 8",S,高
+C3_10,C3,chronic,夜間覚醒週3-4回,Nocturnal awakening 3-4x/wk,S,中
+C3_11,C3,chronic,T字杖使用、屋外歩行30分上限,"Uses cane, outdoor walking limit 30min",B,中
+C3_12,C3,chronic,罹病期間5年,5-year disease duration,B,高
+C3_13,C3,chronic,NSAIDs長期使用・PPI併用,Long-term NSAIDs with PPI,B,高
+C3_14,C3,chronic,胃潰瘍既往,History of gastric ulcer,B,高
+C3_15,C3,chronic,セレコキシブ200mg/日,Celecoxib 200mg/day,B,中
+C3_16,C3,chronic,明日右TKA予定,Right TKA scheduled tomorrow,S,高
+C3_17,C3,chronic,HADS不安7点(境界域),HADS anxiety 7 (borderline),A,中
+C3_18,C3,chronic,手術効果への半信半疑,Skepticism about surgical outcome,A,高
+C3_19,C3,chronic,夫65歳の家事支援,65yo husband's home support,A,中
+C3_20,C3,chronic,多モード鎮痛・術前夜オリエン計画,"Plan: multimodal analgesia, pre-op orientation",R,高
+P1_01,P1,palliative,体温36.4℃,Body temperature 36.4C,B,低
+P1_02,P1,palliative,脈拍92/分,Pulse 92/min,B,中
+P1_03,P1,palliative,血圧138/86mmHg,BP 138/86 mmHg,B,中
+P1_04,P1,palliative,体重58kg(4kg減),Weight 58kg (-4kg from dx),B,高
+P1_05,P1,palliative,CA19-9 482→860から低下,CA19-9 482 (down from 860),A,高
+P1_06,P1,palliative,肝転移巣わずかに縮小,Slight shrinkage of liver mets,A,高
+P1_07,P1,palliative,WBC 4800、好中球2800,"WBC 4800, neutrophils 2800",B,中
+P1_08,P1,palliative,Hb 11.2、Plt 18.5万,"Hb 11.2, Plt 185k",B,低
+P1_09,P1,palliative,FOLFIRINOX 2クール目前日,Day before 2nd FOLFIRINOX cycle,S,高
+P1_10,P1,palliative,第1クールGrade2悪心嘔吐,1st cycle: Grade 2 N/V,B,高
+P1_11,P1,palliative,Grade2好中球減少(G-CSF不要),Grade 2 neutropenia (no G-CSF),B,中
+P1_12,P1,palliative,Grade1末梢神経障害,Grade 1 peripheral neuropathy,B,低
+P1_13,P1,palliative,HADS不安14点(高値),HADS anxiety 14 (high),A,高
+P1_14,P1,palliative,HADS抑うつ9点(境界),HADS depression 9 (borderline),A,中
+P1_15,P1,palliative,入眠困難週5-6日,Insomnia 5-6 nights/wk,S,中
+P1_16,P1,palliative,食事摂取5割,Food intake 50%,S,中
+P1_17,P1,palliative,妻・長男(中2)・長女(高2),"Wife, son (8th grade), daughter (11th grade)",B,中
+P1_18,P1,palliative,子どもへの病状説明未完,Disclosure to children incomplete,A,高
+P1_19,P1,palliative,緩和ケアチーム介入依頼予定,Plan: palliative care team consult,R,高
+P1_20,P1,palliative,制吐療法見直し医師相談,Plan: review antiemetic regimen with MD,R,高
+P2_01,P2,palliative,体温36.7℃,Body temperature 36.7C,B,低
+P2_02,P2,palliative,脈拍88/分,Pulse 88/min,B,低
+P2_03,P2,palliative,血圧124/72mmHg,BP 124/72 mmHg,B,低
+P2_04,P2,palliative,呼吸数18/分,Respiration 18/min,B,低
+P2_05,P2,palliative,SpO2 94%(O2 1L),SpO2 94% (O2 1L),B,中
+P2_06,P2,palliative,オキシコドン徐放40mg/日,Oxycodone SR 40mg/day,B,高
+P2_07,P2,palliative,レスキューオキノーム5mg(1日2-3回),"Oxynorm rescue 5mg, 2-3x/day",B,高
+P2_08,P2,palliative,NRS安静2、体動5,"NRS at rest 2, on movement 5",S,中
+P2_09,P2,palliative,PPS 50%,PPS 50%,B,高
+P2_10,P2,palliative,肺腺癌Stage IV、骨転移,"Lung adenoCa Stage IV, bone mets",B,高
+P2_11,P2,palliative,診断後14ヶ月、化学療法終了(BSC),"14mo since dx, chemo discontinued (BSC)",B,高
+P2_12,P2,palliative,入院第14病日、退院前,"Hospital day 14, pre-discharge",B,中
+P2_13,P2,palliative,夫75歳(主介護者・軽度高血圧),"Husband 75yo (primary caregiver, mild HTN)",A,高
+P2_14,P2,palliative,娘45歳(車40分・週末訪問),"Daughter 45yo (40min drive, weekend visits)",A,中
+P2_15,P2,palliative,Zarit 24点(中程度負担),Zarit score 24 (moderate burden),A,高
+P2_16,P2,palliative,訪問診療・訪問看護週3・要介護2,"Home MD, visiting nurse 3x/wk, LTC level 2",B,高
+P2_17,P2,palliative,夫の夜間対応への不安,Husband's anxiety about nighttime care,A,高
+P2_18,P2,palliative,患者の施設入所検討発言,Patient considers facility admission,A,高
+P2_19,P2,palliative,レスパイトケア早期活用提案,Plan: early respite care utilization,R,高
+P2_20,P2,palliative,退院前カンファ・対応マニュアル文書化,"Plan: pre-discharge conf, written care manual",R,高
+P3_01,P3,palliative,体温36.5℃,Body temperature 36.5C,B,低
+P3_02,P3,palliative,脈拍76/分,Pulse 76/min,B,低
+P3_03,P3,palliative,血圧112/68mmHg,BP 112/68 mmHg,B,低
+P3_04,P3,palliative,呼吸数16/分,Respiration 16/min,B,低
+P3_05,P3,palliative,SpO2 96%,SpO2 96%,B,低
+P3_06,P3,palliative,腹水軽度(腹囲82cm)、膨満感NRS2,"Mild ascites (AC 82cm), distension NRS 2",S,中
+P3_07,P3,palliative,フェンタニルパッチ4mg/3日,Fentanyl patch 4mg/3days,B,高
+P3_08,P3,palliative,悪心は定期投与で消失,Nausea controlled with regular antiemetics,A,中
+P3_09,P3,palliative,流動食5-7割摂取,Liquid diet 50-70% intake,S,中
+P3_10,P3,palliative,FACIT-Sp 9点(低値),FACIT-Sp 9 (low),A,高
+P3_11,P3,palliative,「意味/平安」サブスケール特に低下,Meaning/Peace subscale particularly low,A,高
+P3_12,P3,palliative,中途覚醒(思考性)2-3回/夜,Nocturnal awakening (rumination) 2-3x,S,中
+P3_13,P3,palliative,臨床宗教師面会示唆,Spiritual care visit suggested,A,高
+P3_14,P3,palliative,卵巣癌Stage IIIc、再発後2年,"Ovarian Ca Stage IIIc, 2y since recurrence",B,高
+P3_15,P3,palliative,緩和ケア移行3週前、入棟10病日,"PCU transition 3wk ago, day 10",B,中
+P3_16,P3,palliative,抗癌治療終了,Active anticancer treatment terminated,B,高
+P3_17,P3,palliative,未婚・両親他界・姉70歳月1面会,"Unmarried, parents deceased, sister 70yo monthly",A,高
+P3_18,P3,palliative,元教諭・ボランティア継続歴,"Former teacher, volunteer history",A,中
+P3_19,P3,palliative,定時bedside傾聴時間設定,Plan: scheduled bedside listening time,R,高
+P3_20,P3,palliative,多職種カンファ霊的支援主題化,Plan: spiritual care theme in team conference,R,中

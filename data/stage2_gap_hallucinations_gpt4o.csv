@@ -1,0 +1,8 @@
+case_id,model,temperature,trial,judge,sbar_section,sentence
+P3,gpt,1.0,15,gpt4o,R,医師からの支持があれば、臨床宗教師との面会を調整し、患者の霊的支援を強化します。
+P2,claude,1.0,24,gpt4o,R,緊急性は
+P3,claude,1.0,2,gpt4o,R,緊急性は低いですが、臨床宗教師との面会調整の許可をいただきたいです。
+C3,gpt,1.0,8,gpt4o,S,患者は65歳女性、変形性膝関節症でTKA予定。
+C3,gpt,1.0,17,gpt4o,A,慢性自慰症を持つ患者で、多モード鎮痛（神経ブロック・アセトアミノフェン中心）の計画が推奨されます。
+C3,gemini,1.0,10,gpt4o,R,必要なら鎮静剤検討。
+P3,gemini,1.0,17,gpt4o,B,独身でご家族との関わりは希薄です。

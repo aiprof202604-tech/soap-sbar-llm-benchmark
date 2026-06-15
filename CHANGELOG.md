@@ -7,6 +7,60 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.2.0] — 2026-06-15
+
+Major revision. The study is reframed around **safety-critical omission (SCO)** —
+the proportion of high-priority clinical facts completely omitted from the
+generated handoff — and a fourth model is added. This release aligns the
+repository with the substantially revised single-author manuscript
+(Tajima H., 2026; under review).
+
+### Added
+
+- **Fourth model: GPT-5.5** (`gpt-5.5-2026-04-23`). Corpus expanded to
+  **2,160 SBAR records** (4 models × 9 scenarios × 60 trials; temperatures
+  0.0 and 1.0; 540 valid records per model). Generation script
+  `scripts/run_experiment_gpt55.py`.
+- **Gap-fixed scoring** (`scripts/run_gap_fix.py`) and the primary consensus
+  table `data/final_scores_with_gap.csv`, with Stage 2/3 gap-fixed outputs
+  (`data/stage2_gap_*.csv`, `data/stage3_gap_arbiter.csv`).
+- **Independent second-rater reliability validation.** A registered nurse,
+  independent of and blinded to the author, re-scored a stratified 400-cell
+  subset and independently re-assigned all 180 priority labels:
+  - `data/human_answers.csv` — author blinded scores (400 cells)
+  - `data/rater2_scores.csv` — rater 2 blinded scores (400 cells)
+  - `data/rater2_priority.csv` — rater 2 priority labels (180 tags)
+  - `scripts/analyze_interrater_kappa.py` — reliability analysis
+  - `data/kappa_results.json` — generated outputs
+
+  Inter-rater agreement: Cohen's κ = 0.933 (95% CI 0.901–0.961; 95.8% exact;
+  omit-vs-retain dichotomy κ = 0.969). Priority-label agreement:
+  κ = 0.973 (95% CI 0.937–1.000; 98.3% exact). Pipeline vs author κ = 0.759;
+  pipeline vs rater 2 κ = 0.772.
+- **figures/Figure_SCO_by_model.(png|pdf)** — primary SCO figure.
+
+### Changed
+
+- Primary endpoint changed from mean fact-preservation to the
+  **safety-critical omission rate** on high-priority facts.
+- Headline result (SCO, high-priority-tag gap-fixed analysis):
+  GPT-4o 37.7% (95% CI 28.4–45.3), GPT-5.5 19.4% (12.8–24.6),
+  Claude Opus 4.5 17.0% (11.7–23.7), Gemini 2.5 Flash-Lite 17.0% (9.3–22.4);
+  Friedman χ²(3) = 13.58, p = 0.0035, Kendall's *W* = 0.503.
+- `README.md`, `CITATION.cff`, and `.zenodo.json` rewritten to the revised
+  manuscript title and the four-model design.
+- Citation now uses the **concept DOI `10.5281/zenodo.20105036`**, which always
+  resolves to the latest version.
+
+### Removed
+
+- `data/manuscript.md` (the earlier three-vendor manuscript text) and the
+  earlier three-vendor figures, to avoid divergence from the revised
+  manuscript. Superseded three-vendor / pre-gap-fix score tables, if retained,
+  are clearly marked non-authoritative in `README.md`.
+
+---
+
 ## [1.1.0] — 2026-05-10
 
 This release synchronises the repository with the post-correction manuscript

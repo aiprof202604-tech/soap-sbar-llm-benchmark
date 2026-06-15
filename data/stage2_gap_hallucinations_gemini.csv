@@ -1,0 +1,13 @@
+case_id,model,temperature,trial,judge,sbar_section,sentence
+C3,gpt,1.0,9,gemini,B,NSAIDsによる胃潰瘍の過去があり、HADS不安は境界域です。
+P3,gpt,1.0,2,gemini,B,バイタルサインは安定しており、身体症状は良好にコントロールされているが、霊的苦痛により精神的負担が見られる。
+P3,gpt,1.0,16,gemini,R,また、看護師を通じてライフレビューを行う機会を提供してください。
+P3,claude,0.0,9,gemini,B,3週前に抗癌治療終了し緩和ケア移行。
+C3,gpt,1.0,8,gemini,S,胃も荒れるため、鎮痛剤に不安がある。
+C3,gpt,1.0,14,gemini,B,胃潰瘍歴あり。
+C3,gemini,1.0,8,gemini,B,NSAIDs長期使用による胃潰瘍既往あり。
+C3,gemini,1.0,16,gemini,B,NSAIDs長期使用による胃潰瘍既往あり。
+P3,gemini,1.0,9,gemini,B,小学校教諭として定年まで勤務され、その後もボランティア活動をされてきました。
+P3,gemini,1.0,9,gemini,R,週1回程度、傾聴を中心とした対話の機会を調整していただけると幸いです。
+C3,gpt55,0.0,2,gemini,B,NSAIDs長期使用による胃潰瘍既往あり。
+P2,gpt55,0.0,33,gemini,B,SpO2 94％（O2 1L）、疼痛は安静時NRS2・体動時5。

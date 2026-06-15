@@ -1,0 +1,56 @@
+{
+  "A1 評価者間(著者 vs 評価者2)": {
+    "n": 400,
+    "pct_agreement": 95.8,
+    "kappa_unweighted": 0.933,
+    "kappa_linear": 0.956,
+    "kappa_quadratic": 0.974,
+    "kappa_unw_95CI": [
+      0.901,
+      0.961
+    ],
+    "dichotomy_pct": 98.5,
+    "dichotomy_kappa": 0.969
+  },
+  "A2 パイプライン vs 著者": {
+    "n": 400,
+    "pct_agreement": 85.2,
+    "kappa_unweighted": 0.759,
+    "kappa_linear": 0.829,
+    "kappa_quadratic": 0.88,
+    "kappa_unw_95CI": [
+      0.705,
+      0.812
+    ],
+    "dichotomy_pct": 92.2,
+    "dichotomy_kappa": 0.843
+  },
+  "A3 パイプライン vs 評価者2": {
+    "n": 400,
+    "pct_agreement": 86.0,
+    "kappa_unweighted": 0.772,
+    "kappa_linear": 0.842,
+    "kappa_quadratic": 0.892,
+    "kappa_unw_95CI": [
+      0.717,
+      0.824
+    ],
+    "dichotomy_pct": 91.8,
+    "dichotomy_kappa": 0.832
+  },
+  "A5 合意セルでのパイプライン一致": {
+    "n": 383,
+    "pct_pipeline_matches_consensus": 87.7
+  },
+  "B1 優先度κ(著者 vs 評価者2)": {
+    "n": 180,
+    "pct_agreement": 98.3,
+    "kappa_unweighted": 0.973,
+    "kappa_linear": 0.978,
+    "kappa_quadratic": 0.984,
+    "kappa_unw_95CI": [
+      0.937,
+      1.0
+    ]
+  }
+}
